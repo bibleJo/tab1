@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $('#menu>li:nth-child(1)').click(function(){
+        $(this).css({'background-color':'#e6698a'}).siblings().css({'background-color':'transparent'})
+        $('#box1').show().siblings().hide()
+    })
+    $('#menu>li:nth-child(2)').click(function(){
+        $(this).css({'background-color':'#e6698a'}).siblings().css({'background-color':'transparent'})
+        $('#box2').show().siblings().hide()
+    })
+    $('#menu>li:nth-child(3)').click(function(){
+        $(this).css({'background-color':'#e6698a'}).siblings().css({'background-color':'transparent'})
+        $('#box3').show().siblings().hide()
+    })
+    $('#menu>li:nth-child(4)').click(function(){
+        $(this).css({'background-color':'#e6698a'}).siblings().css({'background-color':'transparent'})
+        $('#box4').show().siblings().hide()
+    })
+})
